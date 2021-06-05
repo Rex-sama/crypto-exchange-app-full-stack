@@ -14,7 +14,7 @@ First you need to install
 You need to create .env file on the root of the project and put these details as shown below
 
 ```console
-DB_CONNECTION = your mongodb link
+DB_CONNECTION = your mongodb connection
 TOKEN_KEY = random string
 ```
 
@@ -25,15 +25,12 @@ TOKEN_KEY = random string
 ```console
  git clone https://github.com/Rex-sama/crypto-exchange-app-full-stack.git
 ```
-3. Navigate to the folder
- ```console
- cd ./client
-``` 
-3. Install all the Dependencies using npm install
+3. Open root directory and navigate to the client  folder.
+4. Install the dependencies in root as well as client directory using npm install
 ```console
  npm install
 ```
-4. Start both server using npm start
+5. Start both server (one in root directory and another in client directory) using npm start
 ```console
 npm start
 ```
@@ -45,8 +42,6 @@ To deploy simply run
 ```console
 npm run build
 ```
-
-
 
 ## Contributing
 
