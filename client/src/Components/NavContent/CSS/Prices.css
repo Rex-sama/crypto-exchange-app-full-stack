@@ -1,0 +1,81 @@
+
+.Price-component {
+    background-color: rgb(0, 255, 85);
+    top: 10%; 
+  }
+  .Price-component form input[type="text"] {
+    width: 400px;
+    height: 40px;
+    margin-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 153, 255, 0.397);
+  }
+  
+  .coins-headers {
+    color: black;
+    display: flex;
+    padding: 0px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .coins-rank {
+    background-color: rgb(14, 14, 20);
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    border-bottom: 1px solid #d7d7d7;
+    width: 1200px;
+    padding: 0px;
+    margin: 0;
+  }
+  .coins {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-right: 24px;
+    min-width: 350px;
+  }
+  .coins h2 {
+    font-size: 16px;
+    width: 100%;
+    margin-left: 100px;
+  }
+  .coins-data {
+    display: flex;
+    text-align: right;
+    padding: 0;
+    justify-content: space-between;
+  }
+  .coins-price {
+    margin: 0;
+    margin-left: 70px;
+    width: 100%;
+    margin-top: 0;
+  }
+  .coins-volume {
+    width: 100%;
+    margin: 0;
+    margin-left: 300px;
+    width: 500px;
+  }
+  .coins-marketcap {
+    margin: 0;
+    width: 100%;
+    margin-left: 70px;
+  }
+  .footer {
+    background-color: rgb(0, 255, 85);
+    height: 423px;
+  }
+  

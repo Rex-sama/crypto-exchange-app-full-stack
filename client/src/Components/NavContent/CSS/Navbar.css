@@ -1,0 +1,58 @@
+.navbar {
+    height: 50px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    /* color: white; */
+  }
+  .navbar div {
+    position: fixed;
+    top: 5px;
+    margin-left: 280px;
+  }
+  .nav-link-active {
+    height: 14px;
+    padding-bottom: 33px;
+    border-bottom: 1px solid rgb(0, 255, 85);
+  }
+  .login {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid rgb(0, 255, 85);
+    background-color: rgb(3, 3, 3);
+    color: rgb(0, 255, 85);
+    border-radius: 20px;
+    /* float: right; */
+  }
+  .sign-out {
+    display: flex;
+    padding: 0;
+    width: auto;
+    column-gap: 10px;
+  }
+  .sign-out p {
+    padding: 0;
+    margin: auto;
+    margin-left: -60px;
+    color: white;
+    /* background-color: blue; */
+  }
+  .sign-in-out {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(0, 255, 85);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    float: right;
+  }

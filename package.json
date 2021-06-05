@@ -1,0 +1,39 @@
+{
+  "name": "Crypto exchange app",
+  "version": "1.0.0",
+  "description": "A MERN based crytocurrency exchange application",
+  "main": "index.js",
+  "author": "Rex-Sama",
+  "scripts": {
+    "start": "node index.js",
+   " heroku-postbuild": "cd client && npm install && npm build",
+    "client":"cd client && npm start",
+    "server" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohitKadu/Demo.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RohitKadu/Demo/issues"
+  },
+  "homepage": "https://github.com/RohitKadu/Demo#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.12",
+    "mongoose-unique-validator": "^2.0.3",
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": "14.15.4",
+    "npm": "7.10.0"
+  }
+}

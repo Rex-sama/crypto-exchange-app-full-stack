@@ -1,0 +1,225 @@
+.modal-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transform: translateZ(0);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-area {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2.5em 1.5em 1.5em 1.5em;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  color: white;
+}
+
+@media screen and (min-width: 500px) {
+  /* Center the Modal! */
+  .modal-area {
+    left: 50%;
+    top: 50%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    max-width: 30em;
+    max-height: calc(100% - 1em);
+  }
+}
+
+._modal-close {
+  /* position: absolute;
+  top: 0;
+  right: 0; */
+  padding: 0.5em;
+  line-height: 1;
+  background-color: rgb(14, 14, 20);
+
+  border: 0;
+  box-shadow: 0;
+  cursor: pointer;
+}
+
+._modal-close-icon {
+  width: 25px;
+  height: 25px;
+  fill: transparent;
+  stroke: rgb(255, 255, 255);
+  stroke-linecap: round;
+  stroke-width: 2;
+}
+
+.modal-body {
+  padding-top: 0.25em;
+}
+._hide-visual {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+.close-div-block {
+  background-color: rgb(14, 14, 20);
+  height: 360px;
+  width: 500px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.close-div-block ._modal-close {
+  float: right;
+}
+._modal-close:hover {
+  background-color: rgb(235, 64, 64);
+  color: white;
+}
+
+.scroll-lock {
+  overflow: hidden;
+  margin-right: 17px;
+}
+.form-group {
+  background-color: rgb(14, 14, 20);
+  color: white;
+  width: 500px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-group-box {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.form-group-header {
+  display: flex;
+  column-gap: 10px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.error {
+  padding: 0px;
+  margin: 0;
+  color: rgb(255, 62, 62);
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+.form-group-header h1 {
+  margin-top: 8px;
+  margin-right: 0px;
+}
+
+.form-group-box + p {
+  padding: 0px;
+  margin: 0px;
+}
+#current {
+  padding: 0px;
+  margin: 0px;
+}
+.Current_price {
+  padding: 0px;
+  margin: 0px;
+}
+.USD {
+  width: 190px;
+  font-size: 17px;
+  height: 35px;
+  padding-left: 10px;
+}
+.COIN {
+  width: 190px;
+  font-size: 17px;
+  height: 35px;
+
+  padding-left: 10px;
+}
+.buy_coin {
+  margin-top: 20px;
+  width: 87%;
+  height: 40px;
+  background-color: rgb(0, 255, 85);
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sell_coin {
+  margin-top: 20px;
+  width: 87%;
+  height: 40px;
+  background-color: rgb(0, 255, 85);
+
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.balance {
+  margin-top: 5px;
+  font-size: 19px;
+}
+
+.BUY {
+  margin-left: 50px;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(0, 255, 85);
+  border-radius: 15px;
+  font-size: 16px;
+  border: none;
+}
+.SELL {
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: rgb(0, 255, 85);
+  font-size: 16px;
+  border: none;
+}
+
+.form-group-signin {
+  background-color: rgb(14, 14, 20);
+  color: white;
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  /* background-color: blue; */
+}
+
+.Current_price-signin {
+  padding-top: 0px;
+  margin: 20px 0px;
+  font-size: 30px;
+}
+.form-group-signin p {
+  color: grey;
+  font-size: 20px;
+}
+.form-group-signin button {
+  width: 110px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: rgb(0, 255, 85);
+  font-size: 22px;
+  border: none;
+}
