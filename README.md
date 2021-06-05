@@ -25,7 +25,7 @@ TOKEN_KEY = random string
 ```console
  git clone https://github.com/Rex-sama/crypto-exchange-app-full-stack.git
 ```
-3. Open root directory and navigate to the client  folder.
+3. Open root directory and navigate to the client folder.
 4. Install the dependencies in root as well as client directory using npm install
 ```console
  npm install
@@ -33,14 +33,6 @@ TOKEN_KEY = random string
 5. Start both server (one in root directory and another in client directory) using npm start
 ```console
 npm start
-```
-
-## Deployment
-
-To deploy simply run
-
-```console
-npm run build
 ```
 
 ## Contributing
