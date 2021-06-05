@@ -15,10 +15,8 @@
     "url": "git+https://github.com/RohitKadu/Demo.git"
   },
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RohitKadu/Demo/issues"
-  },
-  "homepage": "https://github.com/RohitKadu/Demo#readme",
+ 
+
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "bcryptjs": "^2.4.3",
