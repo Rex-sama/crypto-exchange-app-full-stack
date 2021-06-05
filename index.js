@@ -4,8 +4,6 @@ const mongoose = require("mongoose");
 const path = require("path");
 require("dotenv/config");
 
-//Import Ports
-const postRoute = require("./routes/posts");
 // Connect to Mongo DB
 mongoose.connect(
   process.env.DB_CONNECTION,
@@ -19,6 +17,8 @@ mongoose.connect(
     console.log("Connected to DB");
   }
 );
+//Import Ports
+const postRoute = require("./routes/posts");
 //Middlewares
 app.use(express.json());
 
