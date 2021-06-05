@@ -2,6 +2,8 @@
 
 A simple cryptocurrency exchange application  - developed using React, Node, Express and MongoDB.
 
+ <a href="https://crypto-exchange-app-full-stack.herokuapp.com/">Check Live Here</a> 
+
 First you need to install 
 - Node (v14.15.4)
 - NPM (v7.10.0)
