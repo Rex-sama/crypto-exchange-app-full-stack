@@ -15,8 +15,6 @@
     "url": "https://github.com/Rex-sama/crypto-exchange-app-full-stack.git"
   },
   "license": "ISC",
- 
-
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "bcryptjs": "^2.4.3",
