@@ -21,13 +21,12 @@ mongoose.connect(
 );
 //Middlewares
 app.use(express.json());
-
-if(process.env.NODE_ENV === 'production'){
-  app.use(express.static('client/build'))
-}
-
 //Route Middleware
 app.use("/", postRoute);
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
 const port = process.env.PORT || 3001;
 app.listen(port, () => {
