@@ -1,8 +1,7 @@
 # Crypto-exchange-app-full-stack
 
+### <a href="https://crypto-exchange-app-full-stack.herokuapp.com/">Check Live Here</a> 
 A simple cryptocurrency exchange application  - developed using React, Node, Express and MongoDB.
-
- <a href="https://crypto-exchange-app-full-stack.herokuapp.com/">Check Live Here</a> 
 
 Things you need to have
 - Node (v14.15.4)
@@ -34,6 +33,14 @@ TOKEN_KEY = random string
 ```console
 npm start
 ```
+
+## Technology Used
+
+- ReactJs
+- React Router Dom
+- Nodejs
+- Mongoose
+- ExpressJs
 
 ## Contributing
 
